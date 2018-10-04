@@ -59,7 +59,8 @@ function isNumberKey(evt) {
     
     setUpEventListeners(){
 
-      $(this.calc).click(()=>{
+      $(this.calc).click((e)=>{
+        e.preventDefault();
         const cost = controller.setCost($(this.cost).val());
         const margin = controller.setMargin($(this.margin).val());
         const output = controller.calculate(cost, margin);
