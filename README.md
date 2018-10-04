@@ -1,5 +1,6 @@
 # Gross Profit Margin Calculator
 [Check out the live project](https://vasudevapitta.github.io/gross-profit-mvc-js/)
+
 Retail businesses often have a hard time calculating the selling price of products according to gross profit margin percentage.
 Due to this retailers often rely on the suggested retail price from the delivery sheet for products they receive from the wholesaler.
 
