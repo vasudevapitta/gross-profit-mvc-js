@@ -18,11 +18,20 @@ input {
 }
 
 button {
-	width: 140px;
-	height: 40px;
-	font-size: 25px;
+    width: 140px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #0C4CB2;
+    border: none;
+    color: #fff;
 }
 
 .element {
 	padding: 5px 0;
+}
+
+button:hover {
+  background-color: #119DA4;
+  text-decoration: underline;
 }

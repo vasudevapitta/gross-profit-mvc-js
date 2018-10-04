@@ -19,13 +19,13 @@
 
         <div class="input-group col-sm-4 offset-sm-4 element">
           <span class="input-group-addon">Cost: $</span>
-          <input type="number" autofocus class="form-control" placeholder="Enter Amount" aria-label="Amount (to the nearest dollar)" id="cost" pattern = "[0-9]" onkeypress="return isNumberKey(event)" required>
+          <input type="number" autofocus aria-label="enter cost price" class="form-control" placeholder="Enter Amount" id="cost" pattern = "[0-9]" onkeypress="return isNumberKey(event)" required>
           <span class="input-group-addon"></span>
         </div>
 
         <div class="input-group col-sm-4 offset-sm-4 element">
           <span class="input-group-addon">Gross margin: %</span>
-          <input type="number" class="form-control" placeholder="Enter Percent" aria-label="Amount (to the nearest dollar)" id="margin" onkeypress="return isNumberKey(event)" required>
+          <input type="number" class="form-control" placeholder="Enter Percent" aria-label="enter gross profit percentage" id="margin" onkeypress="return isNumberKey(event)" required>
           <span class="input-group-addon"></span>
         </div>
 
@@ -37,7 +37,7 @@
 
         <div class="input-group col-sm-4 offset-sm-4 element">
           <span class="input-group-addon">Selling price: $</span>
-          <input type="text" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)" id="output">
+          <input type="text" class="form-control" placeholder="Amount" aria-label="your selling price" id="output">
           <span class="input-group-addon"></span>
         </div>
 
