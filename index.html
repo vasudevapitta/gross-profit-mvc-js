@@ -18,11 +18,11 @@
           <h1>Price Calculator</h1>
         </div>
         
-        <form action="#" id="myForm" onClick=(function(e){e.preventDefault()})>
+        <!-- <form action="#" onsubmit=(function(e){e.preventDefault()})> -->
 
         <div class="input-group col-sm-4 offset-sm-4 element">
           <span class="input-group-addon">Cost: $</span>
-          <input type="number" class="form-control" placeholder="Enter Amount" aria-label="Amount (to the nearest dollar)" id="cost" pattern = "[0-9]" onkeypress="return isNumberKey(event)" required>
+          <input type="number" autofocus class="form-control" placeholder="Enter Amount" aria-label="Amount (to the nearest dollar)" id="cost" pattern = "[0-9]" onkeypress="return isNumberKey(event)" required>
           <span class="input-group-addon"></span>
         </div>
 
@@ -36,7 +36,7 @@
         <button type="button" class="btn btn-default navbar-btn" id="clear">Clear</button>
         <button type="submit" class="btn btn-default navbar-btn" id="calc">Calculate</button>
         </div>
-        </form>
+        <!-- </form> -->
 
         <div class="input-group col-sm-4 offset-sm-4 element">
           <span class="input-group-addon">Selling price: $</span>
