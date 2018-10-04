@@ -8,7 +8,7 @@ Due to this retailers often rely on the suggested retail price from the delivery
 
 - Enter your cost price of the product
 - Enter the desired profit margin percentage at which you want to sell the product
-- Hit enter or click Calculate & Boom - get your selling price of your product
+- Hit enter or click Calculate & get the selling price of your product
 
 ## How did I code this app?
 
