@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="front end web developer portfolio">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GrossProfit</title>
+    <link rel="stylesheet" type="text/css" href="dist/styles/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="input-group col-sm-4 offset-sm-4">
+          <h1>Price Calculator</h1>
+        </div>
+        
+        <form action="#" id="myForm" onClick=(function(e){e.preventDefault()})>
+
+        <div class="input-group col-sm-4 offset-sm-4 element">
+          <span class="input-group-addon">Cost: $</span>
+          <input type="number" class="form-control" placeholder="Enter Amount" aria-label="Amount (to the nearest dollar)" id="cost" pattern = "[0-9]" onkeypress="return isNumberKey(event)" required>
+          <span class="input-group-addon"></span>
+        </div>
+
+        <div class="input-group col-sm-4 offset-sm-4 element">
+          <span class="input-group-addon">Gross margin: %</span>
+          <input type="number" class="form-control" placeholder="Enter Percent" aria-label="Amount (to the nearest dollar)" id="margin" onkeypress="return isNumberKey(event)" required>
+          <span class="input-group-addon"></span>
+        </div>
+
+        <div class="col-sm-4 offset-sm-4 element">
+        <button type="button" class="btn btn-default navbar-btn" id="clear">Clear</button>
+        <button type="submit" class="btn btn-default navbar-btn" id="calc">Calculate</button>
+        </div>
+        </form>
+
+        <div class="input-group col-sm-4 offset-sm-4 element">
+          <span class="input-group-addon">Selling price: $</span>
+          <input type="text" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)" id="output">
+          <span class="input-group-addon"></span>
+        </div>
+
+        <h5>Coded with <span class='love'>❤</span> by <a href='https://vasudevapitta.github.io/portfolio/' target='_blank' title='Click to visit my website'>Vasudeva Pitta</a></h5>
+        
+<script src="dist/app/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+  padding-top: 10px;
+  font-size: 25px;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+.love {
+     color: #d60000;
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+input {
+	font-size: 25px;
+}
+
+button {
+	width: 120px;
+	height: 40px;
+	font-size: 25px;
+}
+
+.element {
+	padding: 5px 0;
+}
